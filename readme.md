@@ -38,6 +38,23 @@ I test the code with the following packages. Other versions may also work, but I
 - Unzip the data
 - python3 runModel.py
 
+The diarectory structure is:
+```
+- KPN
+  - data
+    - duconv
+      - embeddings.pkl
+      - train.pt
+      - dev.pt
+      - test.pt
+    - durecdial
+      - embeddings.pkl
+      - train.pt
+      - dev.pt
+      - test.pt
+  - output
+```
+
 ## Citations
 If you use the code and datasets, please cite the following paper:  
 ```
