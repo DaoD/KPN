@@ -22,5 +22,28 @@ I test the code with the following packages. Other versions may also work, but I
 ## Citations
 If you use the code and datasets, please cite the following paper:  
 ```
-
+@inproceedings{ZhuNZDJD21,
+  author    = {Yutao Zhu and
+               Jian{-}Yun Nie and
+               Kun Zhou and
+               Pan Du and
+               Hao Jiang and
+               Zhicheng Dou},
+  editor    = {Fernando Diaz and
+               Chirag Shah and
+               Torsten Suel and
+               Pablo Castells and
+               Rosie Jones and
+               Tetsuya Sakai},
+  title     = {Proactive Retrieval-based Chatbots based on Relevant Knowledge and
+               Goals},
+  booktitle = {{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research
+               and Development in Information Retrieval, Virtual Event, Canada, July
+               11-15, 2021},
+  pages     = {2000--2004},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3404835.3463011},
+  doi       = {10.1145/3404835.3463011},
+}
 ```
