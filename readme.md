@@ -12,6 +12,7 @@ A proactive dialogue system has the ability to proactively lead the conversation
 Authors: Yutao Zhu, Jian-Yun Nie, Kun Zhou, Pan Du, Hao Jiang, Zhicheng Dou
 
 ## Ablation Study
+![Table](/img/table2.png)
 
 We remove the knowledge ("w/o K.") and goal ("w/o G.") from KPN to see the impact of these modules. Besides, we also test modeling goal as a knowledge triplet as in DuRetrieval ("G. as K.").  From the results shown in Table 2, we observe that: <br>
 
