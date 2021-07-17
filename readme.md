@@ -34,7 +34,9 @@ I test the code with the following packages. Other versions may also work, but I
 - Pytorch 1.3.1 (with GPU support)<br>
 
 ## Usage
-
+- Download the data from the [link]()
+- Unzip the data
+- python3 runModel.py
 
 ## Citations
 If you use the code and datasets, please cite the following paper:  
