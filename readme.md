@@ -40,19 +40,26 @@ I test the code with the following packages. Other versions may also work, but I
 
 The diarectory structure is:
 ```
-- KPN
-  - data
-    - duconv
-      - embeddings.pkl
-      - train.pt
-      - dev.pt
-      - test.pt
-    - durecdial
-      - embeddings.pkl
-      - train.pt
-      - dev.pt
-      - test.pt
-  - output
+-KPN
+  -runModel.py
+  -kpn.py
+  -evaluation.py
+  -data
+    -duconv
+      -embeddings.pkl
+      -train.pt
+      -dev.pt
+      -test.pt
+    -durecdial
+      -embeddings.pkl
+      -train.pt
+      -dev.pt
+      -test.pt
+  -output
+    -duconv
+      -model
+    -durecdial
+      -model
 ```
 
 ## Citations
