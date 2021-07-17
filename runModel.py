@@ -22,12 +22,12 @@ if dataset == "duconv":
     result_log_file = "./output/duconv/output_log"
     train_model_path = "./output/duconv/model/"
 else:
-    embedding_file = "../data/DuRecDial/embeddings.pkl"
-    train_data_file = "../data/DuRecDial/train.pt"
-    val_data_file = "../data/DuRecDial/dev.pt"
-    test_data_file = "../data/DuRecDial/test.pt"
-    result_log_file = "../output/DuRecDial/output_log"
-    train_model_path = "../output/DuRecDial/model/"
+    embedding_file = "./data/durecdial/embeddings.pkl"
+    train_data_file = "./data/durecdial/train.pt"
+    val_data_file = "./data/durecdial/dev.pt"
+    test_data_file = "./data/durecdial/test.pt"
+    result_log_file = "./output/durecdial/output_log"
+    train_model_path = "./output/durecdial/model/"
 
 logging.basicConfig(filename=result_log_file, level=logging.INFO)
 logger = logging.getLogger(__name__)
