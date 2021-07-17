@@ -13,9 +13,12 @@ Authors: Yutao Zhu, Jian-Yun Nie, Kun Zhou, Pan Du, Hao Jiang, Zhicheng Dou
 
 ## Ablation Study
 
-We remove the knowledge ("w/o K.") and goal ("w/o G.") from KPN to see the impact of these modules. Besides, we also test modeling goal as a knowledge triplet as in DuRetrieval ("G. as K.").  From the results shown in Table 2, we observe that:
-(1) The performance drops sharply when no knowledge is provided. This is consistent with our assumption that the knowledge is vital in proactive dialogue since it drives the proactive dialogue. 
-(2) Removing the goal also degrades performance, but the difference is not as large as removing the knowledge. A potential reason is that the entities in the goal usually also appear in the knowledge, so they may be partially modeled even without an explicit goal component.
+We remove the knowledge ("w/o K.") and goal ("w/o G.") from KPN to see the impact of these modules. Besides, we also test modeling goal as a knowledge triplet as in DuRetrieval ("G. as K.").  From the results shown in Table 2, we observe that: <br>
+
+(1) The performance drops sharply when no knowledge is provided. This is consistent with our assumption that the knowledge is vital in proactive dialogue since it drives the proactive dialogue. <br>
+
+(2) Removing the goal also degrades performance, but the difference is not as large as removing the knowledge. A potential reason is that the entities in the goal usually also appear in the knowledge, so they may be partially modeled even without an explicit goal component. <br>
+
 (3) Using the goal as a knowledge triplet (as in DuRetrieval) is not a good idea, and it is even worse than no using the goal at all.
 Our explanation is that the goal plays a different role from the knowledge, thus cannot be simply fused together. Our method that uses the goal to determine the target of the whole dialogue, and the knowledge to create a possible path toward it, is a much more appropriate method. 
 
