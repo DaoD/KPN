@@ -26,7 +26,7 @@ Our explanation is that the goal plays a different role from the knowledge, thus
 ## Performance with Different Lambdas
 ![Table](/img/lambda.png)
 
-We used a hyperparameter lambda to control the influence of the KP loss. We study the effect of the supervision signal by varying the value of lambda. As shown in Figure 3, our model performs best with lambda around 0.3 consistently on the validation set of both DuConv and DuReDial. When lambda=0, the knowledge prediction process becomes implicitly supervised by the global loss function (i.e., the RS loss) as in previous studies, and the corresponding performance drops significantly. This confirms the usefulness of leveraging explicit feedback to train knowledge prediction. On the other hand, a large lambda may force the model to focus too much on the KP task and hurt the performance of the RS task.
+We use a hyperparameter lambda to control the influence of the KP loss. We study the effect of the supervision signal by varying the value of lambda. As shown in Figure 3, our model performs best with lambda around 0.3 consistently on the validation set of both DuConv and DuReDial. When lambda=0, the knowledge prediction process becomes implicitly supervised by the global loss function (i.e., the RS loss) as in previous studies, and the corresponding performance drops significantly. This confirms the usefulness of leveraging explicit feedback to train knowledge prediction. On the other hand, a large lambda may force the model to focus too much on the KP task and hurt the performance of the RS task.
 
 ## Requirements
 I test the code with the following packages. Other versions may also work, but I'm not sure. <br>
