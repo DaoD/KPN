@@ -34,7 +34,7 @@ I test the code with the following packages. Other versions may also work, but I
 - Pytorch 1.3.1 (with GPU support)<br>
 
 ## Usage
-- Download the data from the [link]()
+- Download the data from the [link](https://drive.google.com/drive/folders/1nToVlrgQNJ6NADy7Cv7VpfsCTN4DCx_Q?usp=sharing)
 - Unzip the data
 - python3 runModel.py
 
