@@ -2,8 +2,6 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
-#### News
-
 ## Abstract
 This repository contains the source code and datasets for the SIGIR 2021 paper [Proactive Retrieval-based Chatbots based on Relevant Knowledge and Goals](http://playbigdata.ruc.edu.cn/dou/publication/2021_SIGIR_Proactive_Dialogue_Short.pdf) by Zhu et al. <br>
 
