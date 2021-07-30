@@ -1,4 +1,4 @@
-# Proactive Retrieval-based Chatbots based on RelevantKnowledge and Goals
+# Proactive Retrieval-based Chatbots based on Relevant Knowledge and Goals
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
